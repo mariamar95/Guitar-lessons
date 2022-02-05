@@ -7,15 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Guitar Lessons with Abel Inglis</title>
 </head>
 
 <body>
     <header>
 
-        <!---------------------------NAVBAR----------------------------->
+        <!---------------------------NAVBAR------------------------------------->
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-lg-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">Logo</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -45,25 +46,33 @@
             </div>
         </nav>
 
-        <!---------------------------HERO-IMG----------------------------->
-        <div class="container">
+        <!---------------------------HERO-IMG-&-TEXT----------------------------->
+
+
+        <div class="hero-container container-fluid">
+            
             <div class="row">
-                <div class="col">
-                    <h1 class="hero-h1-text">Learn how to play the guitar.</h1>
-                    <p class="hero-text lead">Contact us today and start your music journey. <strong><mark>First lessons
-                                is FREE!</mark></strong></p>
+                <div class="col-12">
+                    <section class="hero ">
+                        <div class="hero-text">
+                            <h1 class="hero-h1-text "> Learn how to play the guitar.</h1>
+                            <p class="lead ">Book your first FREE leasson now & start your music journey!</p>
+                        </div>
+                    </section>
                 </div>
             </div>
-        </div>
+
+
+
     </header>
     <hr>
 
     <!---------------------------Wellcome text----------------------------->
 
-    <section class="container">
+    <section class="container wellcome-container">
         <div class="row">
             <div class="col">
-                <div class="wellcome-section">
+                <div class="wellcome-text">
                     <h2>Welcome</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, dolores! Tenetur sit in
                         temporibus
@@ -79,9 +88,10 @@
     <hr>
 
     <!----------------------Contact-Form----------------------------------------->
-    <section class="container">
+
+    <section class="container form-container">
         <fieldset>
-            <legend>Contact Us</legend>
+            <legend>Contact us to book your fisrt FREE lesson.</legend>
             <form action="POST">
                 <div class="mb-3">
                     <label for="name" class="form-label">Name</label>
@@ -92,6 +102,18 @@
                     <input type="email" class="form-control" id="email-address" placeholder="Enter your email here"
                         required>
                 </div>
+
+
+
+                <div class="mb-3">
+                    <label for="date-time" class="form-label">Date and time you'll be available</label>
+                    <input type="datetime-local" class="form-control " id="date-time" required>
+
+                </div>
+
+
+
+
                 <div class="mb-3">
                     <label for="contact-message" class="form-label">Your message</label>
                     <textarea class="form-control" id="contact-message" rows="5" placeholder="Write your message here"
@@ -104,7 +126,7 @@
 
     <footer></footer>
 
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
