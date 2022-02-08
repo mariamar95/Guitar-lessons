@@ -1,25 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Permanent+Marker&family=Rowdies&family=Ubuntu:wght@300;400&display=swap');
+
+/*---Nav-Bar---*/
 .navbar {
-   background-color: black;
+   background-color: #151712;
+   color: #ababaa;
+   font-family: "Ubuntu", sans-serif;
+  
 }
 
+a:hover {
+   color: #c44736;
+
+}
 
 /*--------------------------------------------HERO-IMG-&-Τext-------------------------------*/
 .hero-container {}
 
 .hero {
-   height: 80vh;
+   height: 75vh;
 
    /* Perfect Full Page Background Image https://css-tricks.com/perfect-full-page-background-image/ */
-   background: url(../images/hero1.jpeg) no-repeat center center fixed;
+   background: url(../images/hero/abel3.jpg) no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
 
-   margin: 20px 50px ;
+
 
 }
-
 
 .hero-text {
    text-align: center;
@@ -27,25 +36,123 @@
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
-   color: rgb(216, 216, 216);
+   color: #ffffff;
+   line-height: 1.0
+}
+
+.lead {
+   font-family: "Ubuntu", sans-serif;
+   letter-spacing: 1px;
+   text-align: right;
+}
+
+.hero-h1-text {
+   font-family: "Permanent Marker", sans-serif;
+   font-size: 50px;
+   margin-bottom: 10px;
+   text-align: right;
 }
 
 
+
 /*---------------------------------------Welcome---------------------------------------------*/
-.welcome-container {}
+.welcome-container {
+   margin-top: 35px;
+   margin-bottom: 35px;
+}
+
+
+.welcome-container h2 {
+   text-align: center;
+   color: #ababaa;
+   font-family: 'Permanent Marker', sans-serif;
+   font-size: 50px;
+   text-align: center;
+   margin: auto;
+   padding: 30px;
+}
+
+.welcome-container p {
+   font-family: "Ubuntu", sans-serif;
+   padding: 30px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
 
 /*---------------------------------------Contact----------------------------------------------*/
-.form-container {}
+.form-container {
+   background-color: #a8a8a8;
+   padding-bottom: 70px;
+   padding-right: 50px;
+   padding-left: 50px;
+}
 
+.form-container fieldset {
+   margin: auto;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   align-items: center;
+}
+
+#form-container {
+   margin: auto;
+}
+
+.contact-form {
+   margin: auto;
+   
+}
 
 /*------------------------------------Footer-------------------------------*/
 
 footer ul {
-list-style-type: none;
+   list-style-type: none;
+   margin: auto;
 }
 
 footer {
-   background-color: black;
-   color: #fafafa;
-   margin-top: 70px;
+   background-color: #151712;
+   color: #ababaa;
+   padding: 3vh;
 }
+
+.footer-social a {
+   font-size: x-large;
+   color: #ababaa;
+   margin: auto;
+}
+
+footer h5{
+   margin: auto;
+}
+
+@media only screen and (max-width: 768px){
+   .contact-footer {
+      text-align: center;
+   }
+}
+
+/*------------------------------------Contact Page Social Media-------------------------------*/
+.contact-social ul{
+   font-size: xxx-large;
+}
+
+.contact-social h2 {
+font-family: "Permanent Marker", sans-serif;
+font-size: 50px;
+color: #ababaa;
+margin:auto;
+padding: 30px;
+}
+
+.contact-social p {
+   font-family: "Ubuntu";
+}
+
+.contact-social ul li a {
+   color: #ababaa;
+}
+
+.contact-social ul li a:hover {
+   color: #c44736;
+ }
