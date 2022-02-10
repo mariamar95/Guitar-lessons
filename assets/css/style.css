@@ -5,7 +5,7 @@
    background-color: #151712;
    color: #ababaa;
    font-family: "Ubuntu", sans-serif;
-  
+
 }
 
 a:hover {
@@ -100,7 +100,7 @@ a:hover {
 
 .contact-form {
    margin: auto;
-   
+
 }
 
 /*------------------------------------Footer-------------------------------*/
@@ -122,37 +122,71 @@ footer {
    margin: auto;
 }
 
-footer h5{
+footer h5 {
    margin: auto;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
    .contact-footer {
       text-align: center;
    }
 }
 
 /*------------------------------------Contact Page Social Media-------------------------------*/
-.contact-social ul{
+.contact-social ul {
    font-size: xxx-large;
 }
 
 .contact-social h2 {
-font-family: "Permanent Marker", sans-serif;
-font-size: 50px;
-color: #ababaa;
-margin:auto;
-padding: 30px;
-}
-
-.contact-social p {
-   font-family: "Ubuntu";
-}
-
-.contact-social ul li a {
+   font-family: "Permanent Marker", sans-serif;
+   font-size: 50px;
    color: #ababaa;
+   margin: auto;
+   padding: 30px;
 }
 
-.contact-social ul li a:hover {
-   color: #c44736;
- }
+
+
+
+/*---------------------------------------------CARDS------------------------------*/
+.lessons-cards {
+   margin: 40px, 10px;
+}
+
+.lessons-container {
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.lessons-container h2 {
+   color: #ababaa;
+   font-size: 50px;
+   font-family: "Permanent Marker", sans-serif;
+   margin-bottom: 25px;
+   text-align: center;
+}
+
+/*-------Renviews-----*/
+.reviews {
+   margin: 10px;
+   padding-bottom: 20px;
+}
+
+.reviews h2 {
+   text-align: center;
+   color: #ababaa;
+   font-family: 'Permanent Marker', sans-serif;
+   font-size: 50px;
+   text-align: center;
+   margin: auto;
+   padding: 30px;
+}
+
+.img-thumbnail {
+   border-radius: 50%;
+   height: 200px;
+   width: 200px;
+   background-color: #151712;
+}
+
+/*-----------aboutme-carousel----------*/
