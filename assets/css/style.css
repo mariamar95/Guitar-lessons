@@ -3,17 +3,12 @@
 /*---Nav-Bar---*/
 .navbar {
    background-color: #151712;
-   color: #ababaa;
    font-family: "Ubuntu", sans-serif;
-
+   z-index: 2;
 }
 
-a:hover {
-   color: #c44736;
 
-}
-
-/*--------------------------------------------HERO-IMG-&-Τext-------------------------------*/
+/*---HERO-IMG-&-Τext---*/
 
 .hero {
    height: 75vh;
@@ -33,7 +28,8 @@ a:hover {
    left: 50%;
    transform: translate(-50%, -50%);
    color: #ffffff;
-   line-height: 1.0
+   line-height: 1.0;
+   z-index: 1;
 }
 
 .lead {
@@ -129,9 +125,16 @@ footer h5 {
 }
 
 /*------------------------------------Contact Page Social Media-------------------------------*/
-.contact-social ul {
+.contact-social ul li a {
    font-size: xxx-large;
+   color: #a8a8a8;
 }
+
+.contact-social ul li a:hover {
+   color: #151712;
+}
+
+
 
 .contact-social h2 {
    font-family: "Permanent Marker", sans-serif;
@@ -144,7 +147,7 @@ footer h5 {
 
 
 
-/*---------------------------------------------CARDS------------------------------*/
+/*---CARDS----*/
 .lessons-cards {
    margin: 40px, 10px;
 }
@@ -161,6 +164,8 @@ footer h5 {
    margin-bottom: 25px;
    text-align: center;
 }
+
+
 
 /*-------Renviews-----*/
 .reviews {
@@ -191,7 +196,7 @@ footer h5 {
 .video-container {
    overflow: hidden;
    position: relative;
- 
+
 }
 
 .video-container::after {
