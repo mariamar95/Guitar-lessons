@@ -1,5 +1,8 @@
+https://mariamar95.github.io/Guitar-lessons/
 # Learn-Guitar is a website for people out there looking to learn how to play the guitar either face-to-face or online. 
 ## The purpose of the website, in terms of the instructor’s objectives, is to get people to book lessons, either online or face to face and generate income. Trying to achieve that by offering the first lesson for FREE and having a contact form where visitors can contact the instructor easily and book it. The website also allows new frequent visitors to learn about the instructor's background in music and what makes him stand out from his competition. New and existing students can find the information regarding the lessons, levels and pricing the instructor offers.
+
+
 
 
 
