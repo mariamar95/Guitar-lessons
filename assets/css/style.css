@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Neucha&family=Permanent+Marker&family=Rowdies&family=Ubuntu:wght@300;400&display=swap');
-body{
+
+body {
    background-color: #fafafa;
+
+
 }
+
 /*---Nav-Bar---*/
 .navbar {
    background-color: #151712;
@@ -11,7 +15,7 @@ body{
 
 hr {
    margin: auto;
-   width: 70vh;
+   width: 70%;
    padding: 2px;
    border-radius: 55%;
 }
@@ -20,7 +24,7 @@ hr {
 .hero {
    height: 75vh;
 
-   /* Perfect Full Page Background Image https://css-tricks.com/perfect-full-page-background-image/ */
+   /* Perfecst Full Page Background Image https://css-tricks.com/perfect-full-page-background-image/ */
    background: url(../images/hero/abel3.jpg) no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -38,7 +42,7 @@ hr {
    text-shadow: 10px 5px 7px black;
    line-height: 1.0;
    z-index: 1;
-   
+
 }
 
 .lead {
@@ -55,7 +59,7 @@ hr {
    text-align: right;
    letter-spacing: 2px;
    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
-  
+
 }
 
 
@@ -103,7 +107,7 @@ hr {
    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0, 0.3));
 }
 
-.img-thumbnail {
+.reviews .img-thumbnail {
    border-radius: 50%;
    width: 200px;
    background-color: #b4b4b4;
@@ -122,17 +126,23 @@ hr {
    text-align: justify;
 }
 
-/*--Footer--*/
+main {
+   min-height: calc(100vh - 56px - 108px);
+}
 
+/*--Footer--*/
 footer ul {
    list-style-type: none;
    margin: auto;
 }
 
+
 footer {
    background-color: #151712;
    color: #ababaa;
    padding: 3vh;
+   bottom: 0px;
+   width: 100%;
 }
 
 .footer-social a {
@@ -153,30 +163,21 @@ footer h5 {
 
 /*--Contact--*/
 .form-container {
-   background-color: #151712;
-   padding-bottom: 70px;
-   padding-right: 50px;
-   padding-left: 50px;
+   background-color: #ababaa;
+   padding: 40px;
+   margin-bottom: 50px;
 }
 
-.form-container fieldset {
-   margin: auto;
-   padding-top: 50px;
-   padding-bottom: 50px;
-   align-items: center;
+.form-container h2 {
+   font-family: 'Permanent Marker', sans-serif;
+   text-align: center;
 }
 
-#form-container {
-   margin: auto;
+.form-container label {
+   font-family: "Ubuntu", sans-serif;
 }
 
-.contact-form {
-   margin: auto;
-
-}
-
-
-/*------------------------------------Contact Page Social Media-------------------------------*/
+/*--Contact Page Social Media--*/
 .contact-social ul li a {
    font-size: xxx-large;
    color: #a8a8a8;
@@ -187,42 +188,99 @@ footer h5 {
 }
 
 .contact-social h2 {
-   font-family: "Permanent Marker", sans-serif;
+   text-align: center;
+   color: #1A1A1A;
+   font-family: 'Permanent Marker', sans-serif;
    font-size: 50px;
-   color: #ababaa;
+   text-align: center;
    margin: auto;
    padding: 30px;
+   filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0, 0.3));
 }
 
-/*---CARDS----*/
+/*---Lessons----*/
 .lessons-cards {
-   margin: 40px, 10px;
+   margin-top: 50px;
+   margin-bottom: 50px;
 }
 
 .lessons-container {
+  padding: 20px;
+}
+.about-the-lessons p{
+   font-family: "Ubuntu", sans-serif;
+   text-align: justify;
+   margin-bottom: 50px;
+}
+
+.lessons-container h2 {
+   text-align: center;
+   color: #1A1A1A;
+   font-family: 'Permanent Marker', sans-serif;
+   font-size: 50px;
+   text-align: center;
+   margin: auto;
+   padding: 30px;
+   filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0, 0.3));;
+}
+
+.card-title{
+   font-family: 'Permanent Marker', sans-serif;
+}
+
+.card-text{
+  font-family: "Ubuntu", sans-serif;
+  text-align: justify;
+}
+
+.prices{
+   text-align: center;
+   list-style: none;
+   font-size: "Ubuntu", sans-serif;
+}
+
+.prices i{
+   padding:4px;
+   color: #ababaa;
+}
+
+/*-----------about-me----------*/
+.about-me {
    padding-top: 50px;
    padding-bottom: 50px;
 }
 
-.lessons-container h2 {
-   color: #ababaa;
-   font-size: 50px;
-   font-family: "Permanent Marker", sans-serif;
-   margin-bottom: 25px;
-   text-align: center;
+.aboutme-row {
+   margin-bottom: 50px;
 }
 
+.about-me h3 {
+   text-align: center;
+   color: #1A1A1A;
+   font-family: 'Permanent Marker', sans-serif;
+   font-size: 50px;
+   text-align: center;
+   padding: 40px;
+   filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.3))
+}
 
+.about-me p {
+   font-family: "Ubuntu", sans-serif;
+   font-size: 22px;
+   line-height: 40px;
+   text-align: justify;
+   padding: 20px;
+}
 
+.about-me .img-thumbnail {
+   background-color: #bababa;
+}
 
-
-/*-----------about-me----------*/
 
 /*--Code from https://flaviocopes.com/responsive-youtube-videos/--*/
 .video-container {
    overflow: hidden;
    position: relative;
-
 }
 
 .video-container::after {
@@ -237,4 +295,37 @@ footer h5 {
    left: 0;
    width: 100%;
    height: 100%;
+}
+
+/*--FAQ--*/
+.faq-heading {
+   text-align: center;
+   color: #1A1A1A;
+   font-family: 'Permanent Marker', sans-serif;
+   font-size: 50px;
+   text-align: center;
+   margin: auto;
+   padding: 30px;
+   filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0, 0.3));
+}
+
+.faq-questions-container h3 {
+   font-family: 'Permanent Marker', sans-serif;
+   color: #1A1A1A;
+}
+
+.faq-questions-container p {
+   font-family: "Ubuntu", sans-serif;
+   text-align: justify;
+}
+
+.faq-questions-container {
+   padding: 25px;
+   margin: 20px;
+}
+
+.faq i {
+   padding: 5px;
+   font-size: 25px;
+   color: #ababaa
 }
