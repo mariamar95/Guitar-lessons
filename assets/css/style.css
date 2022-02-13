@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Neucha&family=Permanent+Marker&family=Rowdies&family=Ubuntu:wght@300;400&display=swap');
-
+body{
+   background-color: #fafafa;
+}
 /*---Nav-Bar---*/
 .navbar {
    background-color: #151712;
@@ -7,9 +9,14 @@
    z-index: 2;
 }
 
+hr {
+   margin: auto;
+   width: 70vh;
+   padding: 2px;
+   border-radius: 55%;
+}
 
 /*---HERO-IMG-&-Τext---*/
-
 .hero {
    height: 75vh;
 
@@ -27,15 +34,18 @@
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
-   color: #ffffff;
+   color: #dbdbdb;
+   text-shadow: 10px 5px 7px black;
    line-height: 1.0;
    z-index: 1;
+   
 }
 
 .lead {
    font-family: "Ubuntu", sans-serif;
    letter-spacing: 1px;
    text-align: right;
+   font-weight: 400;
 }
 
 .hero-h1-text {
@@ -43,25 +53,27 @@
    font-size: 50px;
    margin-bottom: 10px;
    text-align: right;
+   letter-spacing: 2px;
+   filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+  
 }
 
 
-
-/*---------------------------------------Welcome---------------------------------------------*/
+/*--Welcome--*/
 .welcome-container {
    margin-top: 35px;
    margin-bottom: 35px;
 }
 
-
 .welcome-container h2 {
    text-align: center;
-   color: #ababaa;
+   color: #151712;
    font-family: 'Permanent Marker', sans-serif;
    font-size: 50px;
    text-align: center;
    margin: auto;
    padding: 30px;
+   filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0, 0.3));
 }
 
 .welcome-container p {
@@ -69,33 +81,48 @@
    padding: 30px;
    margin-top: 10px;
    margin-bottom: 10px;
+   font-size: 20px;
+   text-align: justify;
 }
 
-/*---------------------------------------Contact----------------------------------------------*/
-.form-container {
-   background-color: #a8a8a8;
-   padding-bottom: 70px;
-   padding-right: 50px;
-   padding-left: 50px;
-}
-
-.form-container fieldset {
-   margin: auto;
-   padding-top: 50px;
-   padding-bottom: 50px;
-   align-items: center;
-}
-
-#form-container {
+/*-------Renviews-----*/
+.reviews {
+   margin: 10px;
+   padding-bottom: 20px;
    margin: auto;
 }
 
-.contact-form {
+.reviews h2 {
+   text-align: center;
+   color: #1A1A1A;
+   font-family: 'Permanent Marker', sans-serif;
+   font-size: 50px;
+   text-align: center;
    margin: auto;
-
+   padding: 30px;
+   filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0, 0.3));
 }
 
-/*------------------------------------Footer-------------------------------*/
+.img-thumbnail {
+   border-radius: 50%;
+   width: 200px;
+   background-color: #b4b4b4;
+   margin: auto;
+   border: none;
+   filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+
+.reviews h5 {
+   font-family: 'Permanent Marker', sans-serif;
+   text-align: center;
+}
+
+.reviews p {
+   font-family: "Ubuntu", sans-serif;
+   text-align: justify;
+}
+
+/*--Footer--*/
 
 footer ul {
    list-style-type: none;
@@ -124,6 +151,31 @@ footer h5 {
    }
 }
 
+/*--Contact--*/
+.form-container {
+   background-color: #151712;
+   padding-bottom: 70px;
+   padding-right: 50px;
+   padding-left: 50px;
+}
+
+.form-container fieldset {
+   margin: auto;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   align-items: center;
+}
+
+#form-container {
+   margin: auto;
+}
+
+.contact-form {
+   margin: auto;
+
+}
+
+
 /*------------------------------------Contact Page Social Media-------------------------------*/
 .contact-social ul li a {
    font-size: xxx-large;
@@ -134,8 +186,6 @@ footer h5 {
    color: #151712;
 }
 
-
-
 .contact-social h2 {
    font-family: "Permanent Marker", sans-serif;
    font-size: 50px;
@@ -143,9 +193,6 @@ footer h5 {
    margin: auto;
    padding: 30px;
 }
-
-
-
 
 /*---CARDS----*/
 .lessons-cards {
@@ -167,28 +214,7 @@ footer h5 {
 
 
 
-/*-------Renviews-----*/
-.reviews {
-   margin: 10px;
-   padding-bottom: 20px;
-}
 
-.reviews h2 {
-   text-align: center;
-   color: #ababaa;
-   font-family: 'Permanent Marker', sans-serif;
-   font-size: 50px;
-   text-align: center;
-   margin: auto;
-   padding: 30px;
-}
-
-.img-thumbnail {
-   border-radius: 50%;
-   height: 200px;
-   width: 200px;
-   background-color: #151712;
-}
 
 /*-----------about-me----------*/
 

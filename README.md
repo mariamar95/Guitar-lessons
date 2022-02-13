@@ -32,5 +32,10 @@ https://mariamar95.github.io/Guitar-lessons/
 https://www.pexels.com/photo/a-man-and-a-boy-holding-acoustic-guitars-7520927/
 https://www.pexels.com/photo/calm-woman-playing-acoustic-guitar-in-cozy-apartment-5331147/
 
+Student Review Photos 
+1. [David Gonzales](https://www.pexels.com/photo/photo-of-man-taking-selfie-2406949/)
+2. [George Dolgikh](https://www.pexels.com/photo/selective-focus-photo-of-woman-in-blue-denim-jacket-holding-coffee-cup-while-smiling-1310524/)
+3. [olia danilevich](https://www.pexels.com/photo/a-happy-couple-sitting-on-the-floor-with-their-daughter-8524991/)
+
 ## Color Pallete 
 http://colormind.io/
