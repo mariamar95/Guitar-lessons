@@ -44,9 +44,9 @@
             </div>
         </nav>
 
-
         <!--Hero img-->
-        <div class="row hero">
+        <div class="row hero g-0">
+            <div class="opaque"></div>
             <div class="col-12">
                 <section class="hero ">
                     <div class="hero-text">
@@ -60,14 +60,15 @@
 
     </header>
 
-    <section class="container about-me">
+    <section class="container col-lg-9 about-me g-0">
 
-        <h3>Few things about me...</h3>
+        <h3>A few things about me...</h3>
         <div class="row aboutme-row">
-            <div class="col-lg-6 col-sm-12">
-                <img src="./assets/images/hero/abel1.jpeg" class="img-thumbnail img-fluid" alt="Photo of Abel playing guitar on stage">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img src="./assets/images/hero/abel1.jpeg" class="img-thumbnail img-fluid"
+                    alt="Photo of Abel playing guitar on stage">
             </div>
-            <div class="col-lg-6 col-sm-12">
+            <div class="col-lg-6 col-md-12 col-sm-12">
                 <p>My mum taught me the piano from the age of 5 along with musical theory. I asked to learn the
                     saxophone at 8 years old and my parents endorsed me with an Alto. But, as soon as I saw so many
                     great bands on TV during the 90s as a kid, like Metallica, Alice in Chains, Nirvana, the Mighty
@@ -78,7 +79,7 @@
         </div>
         <div class="row aboutme-row">
 
-            <div class="col-lg-6 col-sm-12">
+            <div class="col-lg-6 col-md-12 col-sm-12">
                 <p> So, at the age of 13 I took my mum’s electric guitar and started teaching myself how to play
                     everybody’s favourite first time tune, Smells Like Teen Spirit. From then on I was obsessed with
                     rock music, punk music, indie, garage, you name it… if it rocked, I loved it. Don’t get me wrong,
@@ -86,8 +87,9 @@
                     could not find in textbooks, but you could witness it with your very eyes on TV or on stage at an
                     Iron Maiden concert (the second band I ever saw live when I was 14!). </p>
             </div>
-            <div class="col-lg-6 col-sm-12">
-                <img src="./assets/images/hero/abel2.jpeg" class="img-thumbnail img-fluid" alt=" Close up photo of Abel playing guitar on stage"></div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img src="./assets/images/hero/abel2.jpeg" class="img-thumbnail img-fluid"
+                    alt=" Close up photo of Abel playing guitar on stage"></div>
         </div>
         <div class="row aboutme-row">
             <div class="col">
@@ -99,10 +101,10 @@
             </div>
         </div>
     </section>
-    
+
     <!--VIDEOS-->
     <!--Code from https://flaviocopes.com/responsive-youtube-videos/-->
-    <div class="row">
+    <div class="row g-0">
         <div class="video-container col-md-4 col-sm-12">
             <iframe src="https://www.youtube.com/embed/llQtmwkS2-o" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -120,91 +122,77 @@
         </div>
     </div>
 
-    <!--FOOTER-->
-    <footer class="container-fluid">
 
-        <div class="row footer">
+        <!--FOOTER-->
+        <footer class="container-fluid">
 
-            <div class="col-md-4 col-sm-12">
+            <div class="row footer">
 
-                <ul class="contact-footer">
-                    <li class="">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <p class="d-inline">abel@learnguitar.com</p>
-                        <span class="sr-only">Email: abel@learnguitar.com</span>
-                    </li>
+                <div class="col-md-4 col-sm-12">
 
-                    <li class="">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
-                        <p class="d-inline">555 555 555</p>
-                        <span class="sr-only">Phone: 555 555 555</span>
-                    </li>
-                </ul>
+                    <ul class="contact-footer">
+                        <li class="">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <p class="d-inline">abel@learnguitar.com</p>
+                            <span class="sr-only">Email: abel@learnguitar.com</span>
+                        </li>
 
+                        <li class="">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <p class="d-inline">555 555 555</p>
+                            <span class="sr-only">Phone: 555 555 555</span>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+                    <h5 class="text-center">© Abel Inglis Music 2022</h5>
+                </div>
+
+
+
+                <div class="col-md-4 col-sm-12 text-center footer-social">
+
+                    <ul class="list-inline social-links text-center">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.facebook.com/">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.spotify.com/">
+                                <i class="fa fa-spotify" aria-hidden="true"></i>
+                                <span class="sr-only">Spotify</span>
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.instagram.com/">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.youtube.com/">
+                                <i class="fa fa-youtube" aria-hidden="true"></i>
+                                <span class="sr-only">YouTube</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="col-md-4 col-sm-12">
-                <h5 class="text-center">© Abel Inglis Music 2022</h5>
-            </div>
+        </footer>
 
 
 
-            <div class="col-md-4 col-sm-12 text-center footer-social">
-
-                <ul class="list-inline social-links text-center">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.facebook.com/">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.spotify.com/">
-                            <i class="fa fa-spotify" aria-hidden="true"></i>
-                            <span class="sr-only">Spotify</span>
-                        </a>
-                    </li>
-
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.instagram.com/">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.youtube.com/">
-                            <i class="fa fa-youtube" aria-hidden="true"></i>
-                            <span class="sr-only">YouTube</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-
-
-
-    <script src="https://kit.fontawesome.com/1ded58b453.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
-</body>
-
-
-</html>
-
-
-
-
-
-
-
-<script src="https://kit.fontawesome.com/1ded58b453.js" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-</script>
+        <script src="https://kit.fontawesome.com/1ded58b453.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>

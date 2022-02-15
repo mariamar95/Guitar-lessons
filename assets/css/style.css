@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Neucha&family=Permanent+Marker&family=Rowdies&family=Ubuntu:wght@300;400&display=swap');
-
 body {
    background-color: #fafafa;
+   overflow-x: hidden;
+}
 
+.row{
+   width: 100%;   
+}
 
+/*keep footer at the bottom of the screen where there's not enough content to push it down
+https://www.youtube.com/watch?v=US_3XvufMLU&ab_channel=CodingJourney*/
+main{
+   min-height: calc(100vh - 56px -79px)
 }
 
 /*---Nav-Bar---*/
@@ -31,7 +39,15 @@ hr {
    -o-background-size: cover;
    background-size: cover;
 }
-
+.opaque{
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   height: 82vh;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.3);
+  
+}
 .hero-text {
    text-align: center;
    position: absolute;
@@ -39,10 +55,8 @@ hr {
    left: 50%;
    transform: translate(-50%, -50%);
    color: #dbdbdb;
-   text-shadow: 10px 5px 7px black;
    line-height: 1.0;
    z-index: 1;
-
 }
 
 .lead {
@@ -87,6 +101,10 @@ hr {
    margin-bottom: 10px;
    font-size: 20px;
    text-align: justify;
+}
+
+.welcome-container div {
+   margin: auto;
 }
 
 /*-------Renviews-----*/
@@ -166,6 +184,7 @@ footer h5 {
    background-color: #ababaa;
    padding: 40px;
    margin-bottom: 50px;
+   margin-top: 50px;
 }
 
 .form-container h2 {
@@ -199,15 +218,19 @@ footer h5 {
 }
 
 /*---Lessons----*/
+.about-me{
+   justify-content: space-evenly;
+}
 .lessons-cards {
    margin-top: 50px;
    margin-bottom: 50px;
 }
 
 .lessons-container {
-  padding: 20px;
+   padding: 20px;
 }
-.about-the-lessons p{
+
+.about-the-lessons p {
    font-family: "Ubuntu", sans-serif;
    text-align: justify;
    margin-bottom: 50px;
@@ -221,26 +244,27 @@ footer h5 {
    text-align: center;
    margin: auto;
    padding: 30px;
-   filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0, 0.3));;
+   filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0, 0.3));
+   ;
 }
 
-.card-title{
+.card-title {
    font-family: 'Permanent Marker', sans-serif;
 }
 
-.card-text{
-  font-family: "Ubuntu", sans-serif;
-  text-align: justify;
+.card-text {
+   font-family: "Ubuntu", sans-serif;
+   text-align: justify;
 }
 
-.prices{
+.prices {
    text-align: center;
    list-style: none;
-   font-size: "Ubuntu", sans-serif;
+   font-family: "Ubuntu", sans-serif;
 }
 
-.prices i{
-   padding:4px;
+.prices i {
+   padding: 4px;
    color: #ababaa;
 }
 
@@ -281,6 +305,7 @@ footer h5 {
 .video-container {
    overflow: hidden;
    position: relative;
+   margin-bottom: 15px;
 }
 
 .video-container::after {
@@ -321,7 +346,8 @@ footer h5 {
 
 .faq-questions-container {
    padding: 25px;
-   margin: 20px;
+   margin: auto;
+
 }
 
 .faq i {

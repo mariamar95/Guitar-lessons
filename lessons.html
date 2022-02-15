@@ -47,19 +47,13 @@
         </nav>
 
         <!--Hero img & text-->
-        <div class="row">
-            <div class="col-12">
-                <section class="hero ">
-                    <div class="hero-text">
-                        <h1 class="hero-h1-text text-center"> Lessons</h1>
-                        <p class="lead 	d-sm-none d-md-block"> Guitar lessons online & in person. Book your first FREE
-                            lesson now & start your
-                            music journey!</p>
-                        <a href="contact.html"><button type="button" class="btn btn-danger">Book Now</button></a>
-                    </div>
-                </section>
+        <section class="hero">
+            <div class="opaque"></div>
+            <div class="hero-text">
+                <h1 class="hero-h1-text text-center"> Lessons</h1>
             </div>
-        </div>
+        </section>
+
     </header>
 
     <section class="container lessons-container">
@@ -132,6 +126,42 @@
         </div>
     </section>
 
+    <hr>
+
+    <section id="contact-lessons" class="container form-container col-lg-6">
+        <form method="POST" action="https://formdump.codeinstitute.net/" id="contact-lessons">
+            <h2>Contact me to book a lessons. The first one is Free!</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <label for="first-name" class="form-label">First Name</label>
+                    <input type="text" name="first_name" class="form-control" id="first-name" placeholder="Name"
+                        required>
+                </div>
+
+                <div class="col-sm-12 col-md-6">
+                    <label for="last-name" class="form-label">Surname</label>
+                    <input type="text" name="last_name" class="form-control" id="last-name" placeholder="Surname"
+                        required>
+                </div>
+
+                <div class="col-sm-12">
+                    <label for="email-address" class="form-label">Email address</label>
+                    <input type="email" name="email" class="form-control" id="email-address"
+                        placeholder="Enter your email address here" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="contact-message" class="form-label">Your message</label>
+                    <textarea name="message" class="form-control" id="contact-message" rows="5"
+                        placeholder="Type your message here" required></textarea>
+                </div>
+            </div>
+            
+           
+            <button type="submit" class="btn btn-success" id="contact-lessons">Send Message</button>
+        </form>
+
+    </section>
 
     <!--FOOTER-->
 
