@@ -1,13 +1,18 @@
-https://mariamar95.github.io/Guitar-lessons/
-# Learn-Guitar is a website for people out there looking to learn how to play the guitar either face-to-face or online. 
-## The purpose of the website, in terms of the instructor’s objectives, is to get people to book lessons, either online or face to face and generate income. Trying to achieve that by offering the first lesson for FREE and having a contact form where visitors can contact the instructor easily and book it. The website also allows new frequent visitors to learn about the instructor's background in music and what makes him stand out from his competition. New and existing students can find the information regarding the lessons, levels and pricing the instructor offers.
+# Milestone 1 - Learn Guitar 
+## **Project Overview**
+The Project is a small website for a guitar instructor based in Newport, Wales. The site's main purpose is give to new and existing students the informantion they need to book a lesson. The website also provides information about the instructor's background in music and what the lessons might involve.
+
+You can find the website [here](https://mariamar95.github.io/Guitar-lessons/)
+
+![](./readme-testing/Responsive.png)
+
+
+### The purpose of the website, in terms of the instructor’s objectives, is to get people to book lessons online or face to face to generate income. The website is trying to achieve this by offering the first lesson for FREE and having a form where visitors can contact the instructor easily to book lessons. The website also allows new and frequent visitors to learn about the instructor's background in music and what makes him stand out from his competition. New and existing students can find the information regarding the lessons and pricing the instructor offers.
 
 
 
-
-
-
-## For first time visitors I want them to:
+# **1.UX** 
+ ### For first time visitors I want them to:
 
 1. Easily understand the purpose and content of the website
 2. Be able to easily navigate through the website 
@@ -15,27 +20,147 @@ https://mariamar95.github.io/Guitar-lessons/
 4. Easily find what kind of lessons the instructor offers.
 5. Find the prices 
 
-## For returning visitors I want them to:
+### For returning visitors I want them to:
 
 1. Be able to find information regarding the instructor
-2. Learn about the instractors background in music and find videos of him performing 
+2. Learn about the instructor's background in music and find videos of him performing 
 3. Follow him on social media 
 
+<br>
+<br>
+
+## **Colours** 
+For the colours of the website, I used [Colormind](http://colormind.io/). 
+Colormind generates colour schemes using deep learning based on color styles from movies, photographs and art. This helped me choose the colour of the navigation bar and ensured that the colours on the website worked well with the hero image. 
+I've researched the bands mentioned in the about me section of the website and tried to find colours that suit the genres of music mentioned. This is to appeal to the type of student who might sign up for lessons with this instructor. 
+
+## **Language/Tone**
+The language used on the website reflects the rock and roll attitude and image of the photographs and videos. I wanted the language to appeal and inspire like-minded people to start learning the guitar. 
+
+## **Fonts**
+- For the all the **Heading** text I've used the **Permanet Marker**. This font gives the website a classroom feeling, as it could have been notes written on a whiteboard.
+- For the rest of the text I've used the **Ubuntu** font.
+
+## **Wireframes**
+I've used Balsamiq to creat the wireframes.
+- [Home](./readme-testing/Wireframes/home.png)
+- [About](./readme-testing/Wireframes/about-me.png)
+- [Lessons](./readme-testing/Wireframes/lessons.png)
+- [Contact](./readme-testing/Wireframes/contact.png)
+- [FAQ](./readme-testing/Wireframes/FAQ.png)
+</br>
+</br>
+
+# **2. Features**
+### 1. The Header
+- **Navigation Bar:** Allow users to navigate the website easily 
+- **Hero Image:** I have used a photo of the instuctor performing. Visitors can get an idea of the kind of music the instructor plays. 
+- **"Book a lesson" Button** This is a 'call-to-action' that takes visitors to the contact page where they can message the instructor to enquire about lessons. I used the colour red to draw attention to the button.
+
+### 2. The footer incudes:
+- The instructor's phone number and email address where customers can easily make contact with him.
+- The instructor's social media pages so that customers can follow him and get to know him better.
+
+
+## **Home Page:**
+I've tried to keep this page nice and simple. I didn't want to overload the home page with information that could potentially turn away customers by giving them unnecessary information.
+- **Hero Image** This is an image of the instructor performing with a 'call-to-action' button.
+- **Welcome text** This is where the instructor gets to say hello to the visitors and let them know what he has to offer.
+- **Student Reviews** This is to provide new customers with confidence in the instructor's teaching and lets them see what other students have to say about having lessons with him. 
+
+## **About Page:**
+This is the page where visitors get to know the instructor's background in music, what inspired him to play music, and what he has to offer that makes him stand out from his competition.
+- **Hero Image** This is an image of the instructor performing. 
+- **A Few Things About Me** This section tells the visitors about how the instructor started playing music and what inspired him. This text is supported by photographs of him performing, which implies that with lessons from him the reader could learn the skills they need to perform live and play alongside their favourite musicians. 
+- **Videos** This section allows visitors to see the instructor performing live and supports the notion that he can teach you how to perform too. 
+
+## **Lessons Page:**
+This is the page where visitors can find information about the type of lessons and prices the instructor offers
+- **Hero Image** This it an image of the instructor performing
+- **About The Lessons** This is a brief explanation of the 
+- **Prices**
+<br>
+<br>
+## **Contact Page:**
+- **Socia Media** Visitors can find the instrutor on social media. This occupies a small part of the screen meaning that customers get to see that there's a contact form on the same page. If there were placed the other way around visitors might miss the social media links. Some customers might prefere using social media to contact the instructor as well.
+- **Contact Form** Potenial customers can fill in the form and send a message to the instructor.
+<br>
+<br>
+## **FAQ Page:**
+As some customers don't like messaging and waiting for their questions to be answered, this page gives short answers to questions asked from from the customers poitn of view
+- **FAQ** Short answers to questions frequently asked by customers
+<br>
+<br>
+<br>
+
+## Future Features
+- **Booking Form:** An online form using an calendar that the instractor can update frequently, allowing customers to pick one of the slots available and pay for their lesson. Making it easier for the instractor to keep track of his schedule 
+- **Students Account:** Students login that would allow them to access the bespoke learing materials uploaded by the instructor as well as scheduled lesson times. 
 
 
 
 
 
+# **3.Technologies Used**
+1. [HTML](https://en.wikipedia.org/wiki/HTML)
+2. [CSS](https://en.wikipedia.org/wiki/CSS)
+3. [Bootstrap](https://getbootstrap.com/)
+4. [Gitpod](https://www.gitpod.io/)
+5. [GiHub](https://github.com/)
+6. [Google Fonts](https://fonts.google.com/)
+7. [Balsamiq](https://balsamiq.com/)
+8. [Tinypng](https://tinypng.com/)
+9. [Photoshop](https://www.adobe.com/)
+10. [Font Awesonme](https://fontawesome.com/)
+11. [Autoprefixer](https://autoprefixer.github.io/)
+12. [W3C HTML Validator](https://validator.w3.org/)
+13. [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+14. [Colormind](http://colormind.io/)
 
-## Hero Photos
--https://www.pexels.com/photo/man-teaching-a-boy-how-to-play-guitar-7520986/
-https://www.pexels.com/photo/a-man-and-a-boy-holding-acoustic-guitars-7520927/
-https://www.pexels.com/photo/calm-woman-playing-acoustic-guitar-in-cozy-apartment-5331147/
+<br>
+<br>
+
+# **4.Testing**
+
+The testing process can be found [here](/TESTING.md)
+
+# **5. Deployment**
+## **GitHub Pages**
+The website is deployed using GitHub pages. It automaticlly updates new commits as they are pushed to the repository.
+
+### **How I deployed the website on GitHub Pages**
+1. Login to my GitHub account
+2. Open the Guitar-Lessons repository
+3. Click on Setting 
+4. Scroll down and click on Pages tab located on the left of the screen
+5. Under "Source" select the main branch
+6. Wait for the page to refresh
+7. Scoll down to and locate the website link under the "GitHub Pages" section
+
+### **Cloning the repository**
+1. Open the repository
+2. Click the Code button above the list of files
+3. Click on GitHub CLI and copy to copy the URL link
+4. Open GitPod 
+5. Type 'git clone' and paste the URL link
+
+Find more [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop)
+
+
+# **6. Credits**
+## Technical
+- [Bootsrap Docs](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+- [CSS Tricks]()
+- [w3Schools](https://www.w3schools.com/)
+- [Autoprefixer](https://autoprefixer.github.io/)
+- [Colormind](http://colormind.io/)
+
+## Photographs
+- Hero Image taken by me. 
+- All other photos of Abel used on the website were taken by [Tony Hebblethwaite](https://www.facebook.com/tony.hebblethwaite)
 
 Student Review Photos 
 1. [David Gonzales](https://www.pexels.com/photo/photo-of-man-taking-selfie-2406949/)
 2. [George Dolgikh](https://www.pexels.com/photo/selective-focus-photo-of-woman-in-blue-denim-jacket-holding-coffee-cup-while-smiling-1310524/)
 3. [olia danilevich](https://www.pexels.com/photo/a-happy-couple-sitting-on-the-floor-with-their-daughter-8524991/)
 
-## Color Pallete 
-http://colormind.io/

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Permanent+Marker&family=Rowdies&family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Permanent+Marker&family=Ubuntu:wght@300;400&display=swap');
 
 body {
    background-color: #fafafa;
@@ -9,14 +9,11 @@ body {
    width: 100%;   
 }
 
-main {
-   min-height: calc(100vh - 56px - 108px);
-}
-
 /*keep footer at the bottom of the screen where there's not enough content to push it down
 https://www.youtube.com/watch?v=US_3XvufMLU&ab_channel=CodingJourney*/
+
 main{
-   min-height: calc(100vh - 56px -79px)
+min-height: calc(100vh - 55px - 108px);
 }
 
 .heading {
@@ -27,7 +24,8 @@ main{
    text-align: center;
    margin: auto;
    padding: 30px;
-   filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0, 0.3));
+   -webkit-filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0, 0.3));
+           filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0, 0.3));
 }
 
 /*---Nav-Bar---*/
@@ -50,9 +48,6 @@ hr {
 
    /* Perfecst Full Page Background Image https://css-tricks.com/perfect-full-page-background-image/ */
    background: url(../images/hero/abel3.jpg) no-repeat center center fixed;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
    background-size: cover;
 }
 
@@ -61,7 +56,9 @@ hr {
    position: absolute;
    top: 50%;
    left: 50%;
-   transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
+       -ms-transform: translate(-50%, -50%);
+           transform: translate(-50%, -50%);
    color: #dbdbdb;
    line-height: 1.0;
    z-index: 1;
@@ -80,8 +77,14 @@ hr {
    margin-bottom: 10px;
    text-align: center;
    letter-spacing: 2px;
-   filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+   -webkit-filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+           filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
 }
+
+@media only screen and (max-width: 320px){
+   .hero-h1-text{
+   font-size: 38px;
+}}
 
 /*--Welcome--*/
 .welcome-container {
@@ -115,7 +118,8 @@ hr {
    background-color: #b4b4b4;
    margin: auto;
    border: none;
-   filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+   -webkit-filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+           filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
 }
 
 .reviews h3 {
@@ -176,7 +180,15 @@ footer h5 {
    font-family: "Ubuntu", sans-serif;
 }
 
+.form-row{
+   margin: 0px;
+}
+
 /*--Contact Page Social Media--*/
+.contact-social{
+   margin: auto;
+}
+
 .contact-social ul li a {
    font-size: xxx-large;
    color: #a8a8a8;
@@ -194,7 +206,8 @@ footer h5 {
    text-align: center;
    margin: auto;
    padding: 30px;
-   filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0, 0.3));
+   -webkit-filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0, 0.3));
+           filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0, 0.3));
 }
 
 /*---Lessons----*/
@@ -253,7 +266,9 @@ footer h5 {
 
 @media (min-width: 992px){
 .about-me .col-lg-6 {
-    flex: 0 0 auto;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
     width: 50%;
     margin: auto;
    }}
@@ -294,7 +309,6 @@ footer h5 {
 .faq-questions-container {
    padding: 25px;
    margin: auto;
-
 }
 
 .faq i {
